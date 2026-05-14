@@ -4,12 +4,14 @@ export default function App() {
       title: 'Eccentric graph of trees and their Cartesian products',
       journal: 'Discrete Mathematics, 347 (2024) 114062.',
       author: 'Anita Arora, Rajiv Mishra',
+      link: 'https://doi.org/10.1016/j.disc.2024.114062',
     },
     {
       title:
         'On non-bipartite graphs with strong reciprocal eigenvalue property',
       journal: 'Linear Algebra and its Applications (2024).',
       author: 'Sasmita Barik, Rajiv Mishra, Sukanta Pati',
+      link: 'https://doi.org/10.1016/j.laa.2024.06.023',
     },
   ];
 
@@ -18,16 +20,19 @@ export default function App() {
       title: 'On Ramsey goodness of K₂,ₙ versus cycles',
       journal: 'arXiv preprint (2026).',
       author: 'Abisek Dewan, Sayan Gupta, Rajiv Mishra',
+      link: 'http://arxiv.org/abs/2605.06253',
     },
     {
       title: 'On Ramsey number of K₂,ₙ versus even cycles',
       journal: 'arXiv preprint (2026).',
       author: 'Abisek Dewan, Sayan Gupta, Rajiv Mishra',
+      link: 'http://arxiv.org/abs/2604.02086',
     },
     {
       title: 'On the spectra of threshold hypergraphs',
       journal: 'arXiv preprint (2022).',
       author: 'Anirban Banerjee, Rajiv Mishra, Samiron Parui',
+      link: 'http://arxiv.org/abs/2207.02528',
     },
   ];
 
@@ -88,8 +93,8 @@ export default function App() {
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mb-10">
               I work in graph theory and combinatorics, with interests in Ramsey
               theory, extremal graph theory, and representation theory of
-              symmetric groups. My current research focuses on cycle structures,
-              Ramsey goodness, and algebraic methods in combinatorics.
+              symmetric groups. My current research focuses on algebraic methods
+              in combinatorics, extremal combinatorics and Ramsey theory.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -97,13 +102,12 @@ export default function App() {
                 Download CV
               </button>
 
-              <button className="border border-white px-7 py-3 rounded-2xl hover:bg-white hover:text-[#0B1F3A] transition duration-300">
+              <a
+                href="#publications"
+                className="border border-white px-7 py-3 rounded-2xl hover:bg-white hover:text-[#0B1F3A] transition duration-300"
+              >
                 Publications
-              </button>
-
-              <button className="border border-white px-7 py-3 rounded-2xl hover:bg-white hover:text-[#0B1F3A] transition duration-300">
-                Research
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -167,14 +171,14 @@ export default function App() {
           <div className="grid md:grid-cols-2 gap-10">
             <div className="bg-white rounded-[2rem] p-10 shadow-xl hover:-translate-y-2 transition duration-300 border border-gray-100">
               <h3 className="text-3xl font-bold text-[#0B1F3A] mb-8">
-                Extremal Graph Theory
+                Algebraic Combinatorics
               </h3>
 
               <ul className="space-y-4 text-gray-700 leading-relaxed text-lg">
-                <li>• Neighborhood conditions</li>
-                <li>• Long cycle problems</li>
-                <li>• Degree constraints</li>
-                <li>• Hamiltonicity problems</li>
+                <li>• Erdős–Ko–Rado-type Problems</li>
+                <li>• Intersecting Families of Permutations</li>
+                <li>• Representation Theory of Symmetric Groups </li>
+                <li>• Spectral Methods in Combinatorics </li>
               </ul>
             </div>
 
@@ -184,10 +188,10 @@ export default function App() {
               </h3>
 
               <ul className="space-y-4 text-gray-700 leading-relaxed text-lg">
-                <li>• Ramsey goodness</li>
-                <li>• Cycles versus sparse graphs</li>
-                <li>• Structural embedding problems</li>
-                <li>• Extremal constructions</li>
+                <li>• Cycles versus Bipartite Graphs</li>
+                <li>• Ramsey Goodness</li>
+                <li>• Structural Embedding Problems</li>
+                <li>• Extremal Constructions</li>
               </ul>
             </div>
           </div>
@@ -233,7 +237,7 @@ export default function App() {
           {/* Publications Heading */}
           <div className="text-center mb-10">
             <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-4">
-              Publications
+              Publications and Preprints
             </p>
 
             <h2 className="text-5xl font-bold text-[#0B1F3A]">Publications</h2>
@@ -256,6 +260,16 @@ export default function App() {
                   <p className="italic text-gray-500 text-lg mt-2">
                     {paper.journal}
                   </p>
+                  <div className="mt-4 flex gap-3">
+                    <a
+                      href={paper.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-1 rounded-full bg-[#0B1F3A] text-white text-sm hover:opacity-90"
+                    >
+                      View Paper
+                    </a>
+                  </div>
                 </li>
               ))}
             </ol>
@@ -283,6 +297,16 @@ export default function App() {
                   <p className="italic text-gray-500 text-lg mt-2">
                     {paper.journal}
                   </p>
+                  <div className="mt-4 flex gap-3">
+                    <a
+                      href={paper.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-4 py-1 rounded-full bg-[#0B1F3A] text-white text-sm hover:opacity-90"
+                    >
+                      View Preprint
+                    </a>
+                  </div>
                 </li>
               ))}
             </ol>
