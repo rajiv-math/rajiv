@@ -70,7 +70,7 @@ export default function App() {
 
         <div className="relative max-w-7xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-10 items-center">
           {/* Profile Image */}
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start  md:pl-20">
             <div className="w-72 h-72 rounded-[2rem] bg-gray-300 shadow-2xl flex items-center justify-center text-gray-600 text-xl font-medium">
               <img
                 src="/profile_pic.jpg"
