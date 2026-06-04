@@ -271,7 +271,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="px-4 py-1 rounded-full bg-[#0B1F3A] text-white text-sm hover:opacity-90"
                     >
-                      View Paper
+                      View Preprint
                     </a>
                   </div>
                 </li>
@@ -308,7 +308,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="px-4 py-1 rounded-full bg-[#0B1F3A] text-white text-sm hover:opacity-90"
                     >
-                      View Preprint
+                      View Paper
                     </a>
                   </div>
                 </li>
