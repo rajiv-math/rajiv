@@ -290,7 +290,7 @@ export default function App() {
               reversed
               className="list-decimal pl-8 space-y-12 text-lg leading-9 text-gray-700"
             >
-              {publicatins.map((paper, index) => (
+              {publications.map((paper, index) => (
                 <li key={index}>
                   <p className="font-semibold text-xl text-[#0B1F3A]">
                     {paper.author}
