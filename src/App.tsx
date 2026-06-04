@@ -238,22 +238,22 @@ export default function App() {
       {/* Publications */}
       <section id="publications" className="py-14 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6">
-          {/* Publications Heading */}
+          {/* Preprints Heading */}
           <div className="text-center mb-10">
             <p className="uppercase tracking-[0.3em] text-sm text-gray-500 mb-4">
               Publications and Preprints
             </p>
 
-            <h2 className="text-5xl font-bold text-[#0B1F3A]">Publications</h2>
+            <h2 className="text-5xl font-bold text-[#0B1F3A]">Preprints</h2>
           </div>
 
-          {/* Publications Block */}
+          {/* Preprints Block */}
           <div className="bg-white rounded-[2rem] p-12 shadow-xl border border-gray-100">
             <ol
               reversed
               className="list-decimal pl-8 space-y-12 text-lg leading-9 text-gray-700"
             >
-              {publications.map((paper, index) => (
+              {preprints.map((paper, index) => (
                 <li key={index}>
                   <p className="font-semibold text-xl text-[#0B1F3A]">
                     {paper.author}
@@ -279,18 +279,18 @@ export default function App() {
             </ol>
           </div>
 
-          {/* Preprints Heading */}
+          {/* Publications Heading */}
           <div className="text-center mt-20 mb-10">
-            <h2 className="text-5xl font-bold text-[#0B1F3A]">Preprints</h2>
+            <h2 className="text-5xl font-bold text-[#0B1F3A]">Publications</h2>
           </div>
 
-          {/* Preprints Block */}
+          {/* Publications Block */}
           <div className="bg-white rounded-[2rem] p-12 shadow-xl border border-gray-100">
             <ol
               reversed
               className="list-decimal pl-8 space-y-12 text-lg leading-9 text-gray-700"
             >
-              {preprints.map((paper, index) => (
+              {publicatins.map((paper, index) => (
                 <li key={index}>
                   <p className="font-semibold text-xl text-[#0B1F3A]">
                     {paper.author}
