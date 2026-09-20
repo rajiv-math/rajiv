@@ -95,10 +95,10 @@ export default function App() {
             </p>
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mb-10">
-              I work in graph theory and combinatorics, with interests in Ramsey
-              theory, extremal graph theory, and representation theory of
-              symmetric groups. My current research focuses on algebraic methods
-              in combinatorics, extremal combinatorics and Ramsey theory.
+              I am a research scholar in mathematics at IISER Kolkata, working under the supervision of Prof. Anirban Banerjee.
+              My research is in graph theory and combinatorics, particularly Ramsey theory, extremal combinatorics, spectral graph theory, 
+              and algebraic methods involving representations of symmetric groups. 
+              I completed my MSc at IIT Bhubaneswar, where my thesis was supervised by Prof. Sasmita Barik.
             </p>
 
             <div className="flex flex-wrap gap-4">
