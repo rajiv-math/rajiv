@@ -20,7 +20,6 @@ export default function App() {
       title: 'Even-Intersecting Families of Permutations',
       journal: 'Submitted (2026).',
       author: 'Anirban Banerjee, Abisek Dewan, Rajiv Mishra',
-      link: ' ',
     },
     {
       title: 'On Ramsey goodness of K₂,ₙ versus cycles',
