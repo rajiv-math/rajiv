@@ -17,6 +17,12 @@ export default function App() {
 
   const preprints = [
     {
+      title: 'Even-Intersecting Families of Permutations',
+      journal: 'Submitted (2026).',
+      author: 'Anirban Banerjee, Abisek Dewan, Rajiv Mishra',
+      link: ' ',
+    },
+    {
       title: 'On Ramsey goodness of K₂,ₙ versus cycles',
       journal: 'arXiv preprint (2026).',
       author: 'Abisek Dewan, Sayan Gupta, Rajiv Mishra',
