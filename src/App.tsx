@@ -102,8 +102,8 @@ export default function App() {
 
             <p className="text-lg text-gray-300 leading-relaxed max-w-2xl mb-10">
               I am a research scholar in mathematics at IISER Kolkata, working under the supervision of Prof. Anirban Banerjee.
-              My research is in graph theory and combinatorics, particularly Ramsey theory, extremal combinatorics, spectral graph theory, 
-              and algebraic methods involving representations of symmetric groups. 
+              My area of research is graph theory and combinatorics, particularly Ramsey theory, extremal combinatorics, spectral graph theory, 
+              and algebraic methods involving representation theory of symmetric groups. 
               I completed my MSc at IIT Bhubaneswar, where my thesis was supervised by Prof. Sasmita Barik.
             </p>
 
