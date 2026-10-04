@@ -108,9 +108,15 @@ export default function App() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <button className="bg-white text-[#0B1F3A] px-7 py-3 rounded-2xl font-semibold shadow-lg hover:scale-105 transition duration-300">
-                Download CV
-              </button>
+  <a
+    href="/CV (1).pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white text-[#0B1F3A] px-7 py-3 rounded-2xl font-semibold shadow-lg hover:scale-105 transition duration-300"
+  >
+    View CV
+  </a>
+</div>
 
               <a
                 href="#publications"
