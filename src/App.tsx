@@ -116,7 +116,7 @@ export default function App() {
              >
                View CV
              </a>
-          </div>
+         
 
               <a
                 href="#publications"
