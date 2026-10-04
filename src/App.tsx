@@ -109,7 +109,7 @@ export default function App() {
 
             <div className="flex flex-wrap gap-4">
              <a
-               href="/CV (1).pdf"
+               href="/Rajiv_Mishra_CV.pdf"
                target="_blank"
                rel="noopener noreferrer"
                className="bg-white text-[#0B1F3A] px-7 py-3 rounded-2xl font-semibold shadow-lg hover:scale-105 transition duration-300"
