@@ -424,7 +424,7 @@ export default function App() {
               </p>
 
               <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-ink-soft">
-                I am a doctoral research scholar in the Department of Mathematics and Statistics at
+                I am a research scholar in the Department of Mathematics and Statistics at
                 IISER Kolkata, working under the supervision of{' '}
                 <a
                   href="https://www.iiserkol.ac.in/~anirban.banerjee/"
