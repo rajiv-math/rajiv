@@ -1,1 +1,25 @@
 @import 'tailwindcss';
+
+@theme {
+  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --color-ink: #0b1f3a;
+  --color-ink-soft: #33415c;
+  --color-accent: #8a5a12;
+  --color-paper: #faf8f4;
+  --color-rule: #e6e1d8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink-soft);
+  -webkit-font-smoothing: antialiased;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
