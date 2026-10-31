@@ -424,12 +424,29 @@ export default function App() {
               </p>
 
               <p className="mt-6 max-w-2xl text-[17px] leading-relaxed text-ink-soft">
-                I am a research scholar in mathematics at IISER Kolkata, working under the
-                supervision of Prof. Anirban Banerjee. My area of research is graph theory and
-                combinatorics, particularly Ramsey theory, extremal combinatorics, spectral graph
-                theory, and algebraic methods involving representation theory of symmetric groups. I
-                completed my MSc at IIT Bhubaneswar, where my thesis was supervised by Prof. Sasmita
-                Barik.
+                I am a doctoral research scholar in the Department of Mathematics and Statistics at
+                IISER Kolkata, working under the supervision of{' '}
+                <a
+                  href="https://www.iiserkol.ac.in/~anirban.banerjee/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-ink underline decoration-accent/50 underline-offset-4 hover:decoration-accent"
+                >
+                  Prof. Anirban Banerjee
+                </a>
+                . My research lies in graph theory and combinatorics, with a focus on Ramsey theory,
+                extremal combinatorics, spectral graph theory, and algebraic methods based on the
+                representation theory of symmetric groups. Before joining IISER Kolkata, I completed
+                my M.Sc. in Mathematics at IIT Bhubaneswar, where my M.Sc. thesis was supervised by{' '}
+                <a
+                  href="https://sbs.iitbbs.ac.in/?p=9142"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-ink underline decoration-accent/50 underline-offset-4 hover:decoration-accent"
+                >
+                  Prof. Sasmita Barik
+                </a>
+                .
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
